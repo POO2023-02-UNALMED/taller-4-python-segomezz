@@ -1,5 +1,4 @@
 from classroom.asignatura import Asignatura
-from multimethod import multimethod
 
 class Grupo:
     grado = "Grado 12"

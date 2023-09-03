@@ -4,7 +4,7 @@ from multimethod import multimethod
 class Grupo:
     grado = "Grado 12"
 
-    def __init__(self, grupo="grupo predertminado", asignaturas=None, estudiantes=None):
+    def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes=None):
         self._grupo = grupo
         self._asignaturas = asignaturas
         if asignaturas is None:
